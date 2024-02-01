@@ -17,8 +17,8 @@ body {
 
 .card {
     position: relative;
-    height: 50vh;
-    width: 35vw;
+    height: 300px;
+    width: 480px;
     background-color: rgb(201, 96, 131);
     overflow: hidden;
     border: 10px solid wheat;
@@ -52,16 +52,8 @@ body {
 
 @media (max-width: 800px) {
     .card {
-        height: 30vh;
-        width: 50vw;
-        text-align: center;
-    }
-}
-
-@media (max-heigth: 1000px) {
-    .card {
-        height: 20vh;
-        width: 50vw;
+        height: 300px;
+        width: 450px;
         text-align: center;
     }
 }
@@ -249,7 +241,7 @@ body {
 
 @media (max-width: 800px) {
     .text {
-        left: 10px;
+        left: 20px;
     }
 }
 
