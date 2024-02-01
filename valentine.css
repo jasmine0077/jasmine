@@ -58,6 +58,14 @@ body {
     }
 }
 
+@media (max-heigth: 1000px) {
+    .card {
+        height: 20vh;
+        width: 50vw;
+        text-align: center;
+    }
+}
+
 .clouds {
     position: absolute;
     width: 100px;
