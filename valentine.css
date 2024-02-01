@@ -53,7 +53,7 @@ body {
 @media (max-width: 480px) {
     .card {
         height: 300px;
-        width: 300px;
+        width: 250px;
         text-align: center;
     }
 }
@@ -241,8 +241,8 @@ body {
 
 @media (max-width: 480px) {
     .text {
-        left: -10px;
-        font-size: 25px;
+        left: -65px;
+        font-size: 15px;
         text-wrap: balance;
     }
 }
