@@ -50,10 +50,10 @@ body {
     box-shadow: 70px 30px rgb(235, 155, 168), 150px 5px rgb(235, 155, 168), 220px 30px rgb(235, 155, 168), 300px 10px rgb(235, 155, 168), 370px 30px rgb(235, 155, 168), 430px 5px rgb(235, 155, 168);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 480px) {
     .card {
         height: 300px;
-        width: 450px;
+        width: 300px;
         text-align: center;
     }
 }
@@ -239,9 +239,11 @@ body {
     content: "Remmber not to eat too much candies-- You are Sweet Enough :)";
 }
 
-@media (max-width: 800px) {
+@media (max-width: 480px) {
     .text {
-        left: 20px;
+        left: -10px;
+        font-size: 25px;
+        text-wrap: balance;
     }
 }
 
